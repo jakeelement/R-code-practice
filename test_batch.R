@@ -16,4 +16,4 @@ testframe <- testframe %>% mutate(var5 = paste0(var4,var3))
 
 
 ggplot(testframe, aes(x = var1, y = var4))+
-  geom_point()
+  geom_point(colour="blue")
