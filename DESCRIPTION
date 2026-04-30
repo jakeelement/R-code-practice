@@ -1,0 +1,14 @@
+Package: RcodePractice
+Type: Package
+Title: Simple Data Entry Shiny App
+Version: 0.1.0
+Authors@R: person(given = "R-code", family = "Practice", role = c("aut", "cre"), email = "you@example.com")
+Description: Provides a Shiny data-entry interface for collecting Date, Trip,
+    Captain, and Measurement values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
